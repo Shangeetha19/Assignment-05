@@ -1,0 +1,47 @@
+#header-nav {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  #header-nav .navbar-brand {
+    font-family: 'Oxygen', sans-serif;
+  }
+  #navbarToggle .icon-bar {
+    background-color: #333;
+  }
+  #nav-list li a {
+    font-family: 'Lora', serif;
+  }
+  
+  /* Main content container */
+  #main-content {
+    margin-top: 20px;
+  }
+  
+  /* Footer styling */
+  footer.panel-footer {
+    background-color: #f8f8f8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer.panel-footer #hours,
+  footer.panel-footer #address {
+    font-size: 14px;
+  }
+  footer.panel-footer #testimonials {
+    font-style: italic;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 767px) {
+    /* Hide phone icon in the header */
+    #phone {
+      display: none;
+    }
+    /* Show delivery message in the header */
+    #xs-deliver {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  }
